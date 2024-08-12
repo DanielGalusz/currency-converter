@@ -21,6 +21,6 @@ function calculate() {
     }
     
     const result = amount * rate;
-    document.getElementById('result').innerText = `${amount} DEM = ${result.toFixed(2)} ${currency.toUpperCase()}`;
+    document.getElementById('result').innerText = `${amount} ZŁ = ${result.toFixed(2)} ${currency.toUpperCase()}`;
   }
   
